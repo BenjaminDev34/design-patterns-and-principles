@@ -28,7 +28,7 @@ class BigFatRobot{
     }
 }
 ```
-It's awesome to have a class that can do pretty much anything but only on paper,  it actually is a bad practice and here's why:
+It's awesome to have a class that can do pretty much anything but only on paper,  it's actually is a bad practice and here's why:
 
 ## 🚨 Why is it a problem?
 
