@@ -26,8 +26,12 @@ class Baby extends Human{
     /**
      * @throws Exception
      */
-    public function move():never{
-        throw new Exception("Baby can't move");
+     public function move():string{
+     if($this->ageMonth < 6){
+         throw new Exception("Baby can't move");
+     }else{
+         return "baby crawling";
+     }
     }
     public function talk():string{
         return "gouzi gouzi gouzi";
